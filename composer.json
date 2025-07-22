@@ -1,0 +1,14 @@
+{
+    "name": "unifi-wifi-auth/captive-portal",
+    "description": "UniFi captive portal with Microsoft Entra ID (Azure AD) authentication",
+    "type": "project",
+    "require": {
+        "league/oauth2-client": "^2.6",
+        "thenetworg/oauth2-azure": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
